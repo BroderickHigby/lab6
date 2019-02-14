@@ -20,7 +20,8 @@ function statusChangeCallback(response) {
       // Find <p1> tag and hide(), <h1> tag
       // Set your name using .text response
       facebookLogin.hide()
-      { #photo } 
+      {#photo.hide()}; 
+      {#status };
       $.attr('src', );
   } 
 }
