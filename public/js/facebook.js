@@ -22,6 +22,6 @@ function statusChangeCallback(response) {
       facebookLogin.hide()
       {#photo.hide()}; 
       {#status };
-      $.attr('src', );
+      $('img').attr('src', );
   } 
 }
